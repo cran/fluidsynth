@@ -1,4 +1,4 @@
-4f13dcd6b0771828048e22f50a5f08f3 *DESCRIPTION
+9ae7c2121c67c65f9931c14ef308a001 *DESCRIPTION
 66b8d6ae536d10339b4a28d0c792c08c *LICENSE
 62b15399b04abb67f3f82b8371ac79a8 *NAMESPACE
 0a88f8da8f2f45dade47f867a98da506 *R/init.R
@@ -12,10 +12,10 @@ c9fbecdaf525751144852fa285681db8 *man/fluidsynth.Rd
 0336e0682a115aae65d1cffcd95addd2 *man/fluidsynth_settings.Rd
 f38b15ade099ab1ecb8705c4ecb6e68e *man/soundfonts.Rd
 c34834960e96714a1edfa0a9b4eb9551 *src/Makevars.in
-2077d6fdae6bede2de6ee21c6f5bc79e *src/Makevars.ucrt
-34b7f6afc470087befc51974f2a0d85c *src/Makevars.win
+bddf1eff55e8df609a0270959d81cb60 *src/Makevars.ucrt
+e19993a2d02dec9bd128f4e4d938bd7e *src/Makevars.win
 004408fb0b8d1e04d3e18a280e013a7f *src/init.c
-641e310d83fd1b3b6c2ff4e7266ec3ff *src/playmidi.c
+71d35d2dde48726e40057dc0cddcae08 *src/playmidi.c
 bf39bafc7efb1aaf140b91f86899691a *src/readmidi.c
 cf9567ef3d8ab4f30d5667a2ea900376 *src/settings.c
 a8b9dcfcc803af566c89d1e01ffa4bc6 *tools/winlibs.R
