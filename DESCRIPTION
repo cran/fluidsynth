@@ -1,7 +1,7 @@
 Package: fluidsynth
 Type: Package
 Title: Read and Play Digital Music (MIDI)
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: c(
     person("Jeroen", "Ooms", role = c("aut", "cre"), email = "jeroenooms@gmail.com",
       comment = c(ORCID = "0000-0002-4035-0289")),
@@ -22,9 +22,9 @@ URL: https://docs.ropensci.org/fluidsynth/
         https://ropensci.r-universe.dev/fluidsynth
 BugReports: https://github.com/ropensci/fluidsynth/issues
 NeedsCompilation: yes
-Packaged: 2024-10-03 14:12:33 UTC; jeroen
-Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),
+Packaged: 2026-06-11 12:06:33 UTC; jeroen
+Author: Jeroen Ooms [aut, cre] (ORCID: <https://orcid.org/0000-0002-4035-0289>),
   S. Christian Collins [cph] (author of generaluser-gs soundbank)
 Maintainer: Jeroen Ooms <jeroenooms@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-10-04 09:10:13 UTC
+Date/Publication: 2026-06-11 12:40:02 UTC

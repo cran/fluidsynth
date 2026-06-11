@@ -1,9 +1,13 @@
 #include <fluidsynth.h>
 #include <Rinternals.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <R_ext/Rdynload.h>
 #ifdef HAS_LIBSDL2
 #include <SDL2/SDL.h>
+#endif
+#ifdef HAS_LIBSDL3
+#include <SDL3/SDL.h>
 #endif
 
 /* .Call calls */
@@ -29,8 +33,14 @@ static void logging_callback(int level, const char *message, void *data){
 }
 
 void R_init_fluidsynth(DllInfo *dll){
-#ifdef HAS_LIBSDL2
-   SDL_Init(SDL_INIT_AUDIO);
+#if defined(HAS_LIBSDL2) || defined(HAS_LIBSDL3)
+  if (geteuid() == 0) {
+    REprintf("Running fluidsynth as root is known to cause issues audio playback");
+  } else {
+    //pipewire emits a lot of noise when it can't read the HOME dir
+    setenv("PIPEWIRE_DEBUG", "0", 0);
+    SDL_Init(SDL_INIT_AUDIO);
+  }
 #endif
   R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
   R_useDynamicSymbols(dll, FALSE);

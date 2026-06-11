@@ -1,11 +1,11 @@
-7095986980ac8b2530f9366df4f5ee3f *DESCRIPTION
+66958af93a0962e014ee6444a77e4889 *DESCRIPTION
 66b8d6ae536d10339b4a28d0c792c08c *LICENSE
 62b15399b04abb67f3f82b8371ac79a8 *NAMESPACE
 0a88f8da8f2f45dade47f867a98da506 *R/init.R
 4218fb4c765df88a99385a871148a3d9 *R/midi.R
 5c75da8b3f770f79d8cf713ada3a3c43 *R/settings.R
 0dfd0e59c5e90f29a7b9e671d270de8e *R/soundfonts.R
-332211638884147974048affa6ca853e *configure
+200cd6ccc9da43362772380f421afae8 *configure
 7c46d904a1cf40891dd1f1888727ec30 *inst/midi/All_Night_Long.mid
 29d3b2e51d8d5c89b57ca1553d44050b *inst/midi/README.txt
 c9fbecdaf525751144852fa285681db8 *man/fluidsynth.Rd
@@ -14,7 +14,7 @@ f38b15ade099ab1ecb8705c4ecb6e68e *man/soundfonts.Rd
 c34834960e96714a1edfa0a9b4eb9551 *src/Makevars.in
 bddf1eff55e8df609a0270959d81cb60 *src/Makevars.ucrt
 e19993a2d02dec9bd128f4e4d938bd7e *src/Makevars.win
-004408fb0b8d1e04d3e18a280e013a7f *src/init.c
+d9112d024a0b9240bc3088160dd59618 *src/init.c
 71d35d2dde48726e40057dc0cddcae08 *src/playmidi.c
 bf39bafc7efb1aaf140b91f86899691a *src/readmidi.c
 cf9567ef3d8ab4f30d5667a2ea900376 *src/settings.c
